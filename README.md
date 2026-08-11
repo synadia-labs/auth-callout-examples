@@ -1,6 +1,10 @@
 # NATS Auth Callout Reference Implementations
 
-Runnable demos for NATS JetStream features, backed by a self-contained local server harness. Each demo lives under `cmd/` and ships with a CLI walkthrough and a Go program.
+This project contains a series of examples of how to use AuthCallout in different scenarios:
++ Config based static AuthCallout configuration
++ Operator mode decentralized AuthCallout Configuration
++ Synadia Control Plane (SCP) integration via AuthCallout
+
 
 ## Prerequisites
 
@@ -13,26 +17,6 @@ Runnable demos for NATS JetStream features, backed by a self-contained local ser
 |nats-server| 2.12+| https://nats.io/download/|
 
 
-## Shared Server Harness
-
-`server/Taskfile.yml` manages the NATS server lifecycle. The binary is fetched from `binaries.nats.dev` on first use and cached at `server/bin/`. Run these from the repo root:
-
-```bash
-task server:single       # single-node JetStream (port 4222)
-task server:cluster      # 3-node JetStream cluster (ports 4222–4224)
-task server:super        # supercluster: 3 clusters × 3 nodes + 7 leaf nodes (16 servers)
-
-task server:stop         # stop all running servers and wipe data
-task server:status       # health check all known endpoints
-
-task server:reset:single   # wipe + restart single-node
-task server:reset:cluster  # wipe + restart 3-node cluster
-task server:reset:super    # wipe + restart supercluster
-```
-
-After starting, a NATS CLI context is saved and selected so `nats` commands work without a `--server` flag.
-
-Demos that need their own server topology (e.g. specific ports or JetStream domains) include their own `Taskfile.yml` and `conf/` — see the demo's README for details.
 
 ## Demos
 
