@@ -6,7 +6,7 @@ Runnable demos for NATS JetStream features, backed by a self-contained local ser
 
 | Tool | Version | Install |
 |---|---|---|
-| Java | jdk 20 + | (https://openjdk.org/install/) |
+| Java | jdk 23 + | (https://openjdk.org/install/) |
 | nats CLI | 0.3+ | `go install github.com/nats-io/natscli/nats@latest` |
 |nats nsc |v2.15.0 |https://github.com/nats-io/nsc | 
 
