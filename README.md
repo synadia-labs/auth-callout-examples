@@ -7,11 +7,11 @@ Runnable demos for NATS JetStream features, backed by a self-contained local ser
 | Tool | Version | Install |
 |---|---|---|
 | Java | jdk 23 + | (https://openjdk.org/install/) |
+| maven|3.9.9+|https://maven.apache.org/download.cgi|
 | nats CLI | 0.3+ | `go install github.com/nats-io/natscli/nats@latest` |
 |nats nsc |v2.15.0 |https://github.com/nats-io/nsc | 
 |nats-server| 2.12+| https://nats.io/download/|
 
-`nats-server` is downloaded automatically by the Task commands — no manual install needed.
 
 ## Shared Server Harness
 
