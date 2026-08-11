@@ -1,0 +1,22 @@
+# Binaries
+/bin/
+*.exe
+*.out
+
+# Go build cache
+/vendor/
+
+# NATS server
+/server/bin/
+/server/data/
+/server/logs/
+/server/.pids
+
+# Built Go binaries
+/cmd/delayed-message-scheduling/delayed-message-scheduling
+/cmd/delayed-message-scheduling/delayed-message-scheduling.exe
+
+# crdt-convergence demo server artifacts
+/cmd/distributed-counter-crdt/crdt-convergence/.pids
+/cmd/distributed-counter-crdt/crdt-convergence/data/
+/cmd/distributed-counter-crdt/crdt-convergence/logs/

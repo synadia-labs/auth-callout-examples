@@ -1,0 +1,200 @@
+Size: 128
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 7,558 msgs/sec ~ 945 KiB/sec ~ 132.31us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 81,199 msgs/sec ~ 9.9 MiB/sec ~ 12.32us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 69,370 msgs/sec ~ 8.5 MiB/sec ~ 14.42us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 8,221 msgs/sec ~ 1.0 MiB/sec ~ 121.63us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 94,969 msgs/sec ~ 12 MiB/sec ~ 10.53us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 72,539 msgs/sec ~ 8.9 MiB/sec ~ 13.79us
+
+Size: 256
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 7,498 msgs/sec ~ 1.8 MiB/sec ~ 133.36us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 83,743 msgs/sec ~ 20 MiB/sec ~ 11.94us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 92,347 msgs/sec ~ 22 MiB/sec ~ 10.83us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 12,461 msgs/sec ~ 3.0 MiB/sec ~ 80.25us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 75,839 msgs/sec ~ 18 MiB/sec ~ 13.19us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 103,959 msgs/sec ~ 25 MiB/sec ~ 9.62us
+
+Size: 512
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 12,378 msgs/sec ~ 6.0 MiB/sec ~ 80.79us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 61,977 msgs/sec ~ 30 MiB/sec ~ 16.13us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 77,733 msgs/sec ~ 38 MiB/sec ~ 12.86us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 12,949 msgs/sec ~ 6.3 MiB/sec ~ 77.22us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 75,832 msgs/sec ~ 37 MiB/sec ~ 13.19us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 84,461 msgs/sec ~ 41 MiB/sec ~ 11.84us
+
+Size: 1024
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 7,393 msgs/sec ~ 7.2 MiB/sec ~ 135.25us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 84,923 msgs/sec ~ 83 MiB/sec ~ 11.78us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 75,810 msgs/sec ~ 74 MiB/sec ~ 13.19us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 7,614 msgs/sec ~ 7.4 MiB/sec ~ 131.32us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 97,001 msgs/sec ~ 95 MiB/sec ~ 10.31us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 90,983 msgs/sec ~ 89 MiB/sec ~ 10.99us
+
+Size: 2048
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 7,200 msgs/sec ~ 14 MiB/sec ~ 138.87us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 57,248 msgs/sec ~ 112 MiB/sec ~ 17.47us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 90,729 msgs/sec ~ 177 MiB/sec ~ 11.02us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 7,458 msgs/sec ~ 15 MiB/sec ~ 134.08us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 84,287 msgs/sec ~ 165 MiB/sec ~ 11.86us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 75,411 msgs/sec ~ 147 MiB/sec ~ 13.26us
+
+Size: 4096
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 7,135 msgs/sec ~ 28 MiB/sec ~ 140.15us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 70,353 msgs/sec ~ 275 MiB/sec ~ 14.21us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 57,119 msgs/sec ~ 223 MiB/sec ~ 17.51us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 12,034 msgs/sec ~ 47 MiB/sec ~ 83.09us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 61,035 msgs/sec ~ 238 MiB/sec ~ 16.38us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 49,789 msgs/sec ~ 194 MiB/sec ~ 20.08us
+
+Size: 8192
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 6,817 msgs/sec ~ 53 MiB/sec ~ 146.68us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 43,685 msgs/sec ~ 341 MiB/sec ~ 22.89us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 29,937 msgs/sec ~ 234 MiB/sec ~ 33.40us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 7,093 msgs/sec ~ 55 MiB/sec ~ 140.97us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 25,648 msgs/sec ~ 200 MiB/sec ~ 38.99us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 56,109 msgs/sec ~ 438 MiB/sec ~ 17.82us
+
+Size: 16384
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 6,347 msgs/sec ~ 99 MiB/sec ~ 157.55us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 22,859 msgs/sec ~ 357 MiB/sec ~ 43.74us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 26,946 msgs/sec ~ 421 MiB/sec ~ 37.11us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 6,531 msgs/sec ~ 102 MiB/sec ~ 153.11us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 23,390 msgs/sec ~ 366 MiB/sec ~ 42.75us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 26,891 msgs/sec ~ 420 MiB/sec ~ 37.19us
+

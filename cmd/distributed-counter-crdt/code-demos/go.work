@@ -1,0 +1,11 @@
+go 1.25.9
+
+use (
+	./america
+	./asia
+	./england
+	./europe
+	./france
+	./global
+	./spain
+)

@@ -1,0 +1,200 @@
+Size: 128
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 5,330 msgs/sec ~ 666 KiB/sec ~ min: 115.81us ~ avg: 185.30us ~ max: 37,139.06us ~ P50: 179.93us ~ P90: 221.95us ~ P99: 284.10us ~ P99.9: 534.77us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 30,862 msgs/sec ~ 3.8 MiB/sec ~ min: 2,086.33us ~ avg: 3,237.97us ~ max: 141,558.97us ~ P50: 2,989.82us ~ P90: 3,911.85us ~ P99: 6,190.53us ~ P99.9: 21,769.49us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 51,871 msgs/sec ~ 6.3 MiB/sec ~ min: 7,504.99us ~ avg: 9,634.42us ~ max: 20,026.21us ~ P50: 9,319.94us ~ P90: 10,918.51us ~ P99: 17,151.37us ~ P99.9: 20,026.21us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,931 msgs/sec ~ 366 KiB/sec ~ min: 226.98us ~ avg: 338.51us ~ max: 29,906.66us ~ P50: 330.80us ~ P90: 388.99us ~ P99: 493.84us ~ P99.9: 905.04us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 54,967 msgs/sec ~ 6.7 MiB/sec ~ min: 1,104.65us ~ avg: 1,817.20us ~ max: 25,326.07us ~ P50: 1,698.77us ~ P90: 2,227.01us ~ P99: 3,422.40us ~ P99.9: 18,155.41us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 55,223 msgs/sec ~ 6.7 MiB/sec ~ min: 5,923.57us ~ avg: 9,048.58us ~ max: 47,128.43us ~ P50: 8,416.00us ~ P90: 11,141.07us ~ P99: 17,674.94us ~ P99.9: 47,128.43us
+
+Size: 256
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,878 msgs/sec ~ 1.2 MiB/sec ~ min: 123.43us ~ avg: 202.51us ~ max: 19,858.10us ~ P50: 197.21us ~ P90: 239.82us ~ P99: 306.89us ~ P99.9: 563.86us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 30,783 msgs/sec ~ 7.5 MiB/sec ~ min: 2,324.36us ~ avg: 3,246.42us ~ max: 42,800.02us ~ P50: 3,025.59us ~ P90: 3,838.93us ~ P99: 6,188.52us ~ P99.9: 40,439.98us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 41,479 msgs/sec ~ 10 MiB/sec ~ min: 9,486.40us ~ avg: 12,049.19us ~ max: 34,507.22us ~ P50: 11,629.69us ~ P90: 13,803.57us ~ P99: 19,895.14us ~ P99.9: 34,507.22us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 5,553 msgs/sec ~ 1.4 MiB/sec ~ min: 101.19us ~ avg: 177.60us ~ max: 19,693.79us ~ P50: 171.83us ~ P90: 213.72us ~ P99: 286.46us ~ P99.9: 516.34us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 40,793 msgs/sec ~ 10 MiB/sec ~ min: 1,525.07us ~ avg: 2,449.32us ~ max: 38,099.26us ~ P50: 2,224.59us ~ P90: 3,063.75us ~ P99: 5,115.15us ~ P99.9: 19,790.62us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 56,403 msgs/sec ~ 14 MiB/sec ~ min: 6,328.64us ~ avg: 8,859.09us ~ max: 38,928.56us ~ P50: 8,246.90us ~ P90: 10,886.33us ~ P99: 17,142.86us ~ P99.9: 38,928.56us
+
+Size: 512
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 5,026 msgs/sec ~ 2.5 MiB/sec ~ min: 122.37us ~ avg: 196.54us ~ max: 21,093.24us ~ P50: 191.28us ~ P90: 233.32us ~ P99: 295.49us ~ P99.9: 516.97us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 30,339 msgs/sec ~ 15 MiB/sec ~ min: 2,176.08us ~ avg: 3,293.87us ~ max: 47,777.63us ~ P50: 3,085.58us ~ P90: 3,888.58us ~ P99: 6,271.42us ~ P99.9: 15,634.29us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 48,276 msgs/sec ~ 24 MiB/sec ~ min: 8,064.50us ~ avg: 10,351.99us ~ max: 40,916.28us ~ P50: 10,030.68us ~ P90: 11,573.19us ~ P99: 18,128.66us ~ P99.9: 40,916.28us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,987 msgs/sec ~ 1.5 MiB/sec ~ min: 221.19us ~ avg: 332.13us ~ max: 27,033.59us ~ P50: 323.72us ~ P90: 382.25us ~ P99: 482.20us ~ P99.9: 938.70us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 40,676 msgs/sec ~ 20 MiB/sec ~ min: 1,672.13us ~ avg: 2,456.13us ~ max: 33,662.00us ~ P50: 2,258.34us ~ P90: 3,109.03us ~ P99: 5,004.24us ~ P99.9: 8,077.21us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 56,411 msgs/sec ~ 28 MiB/sec ~ min: 6,518.10us ~ avg: 8,858.16us ~ max: 18,618.55us ~ P50: 8,333.54us ~ P90: 10,770.10us ~ P99: 15,566.95us ~ P99.9: 18,618.55us
+
+Size: 1024
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,769 msgs/sec ~ 2.7 MiB/sec ~ min: 231.45us ~ avg: 358.33us ~ max: 37,160.03us ~ P50: 348us ~ P90: 407.01us ~ P99: 524.91us ~ P99.9: 1,087.23us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 27,262 msgs/sec ~ 27 MiB/sec ~ min: 2,405.79us ~ avg: 3,665.61us ~ max: 248,051.21us ~ P50: 3,367.31us ~ P90: 4,487.93us ~ P99: 6,807.90us ~ P99.9: 14,598.78us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 36,595 msgs/sec ~ 36 MiB/sec ~ min: 10,457.53us ~ avg: 13,657.83us ~ max: 54,897.43us ~ P50: 13,032.10us ~ P90: 15,881.56us ~ P99: 22,860.7us ~ P99.9: 54,897.43us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 5,557 msgs/sec ~ 5.4 MiB/sec ~ min: 98.95us ~ avg: 177.47us ~ max: 18,193.67us ~ P50: 171.08us ~ P90: 213.51us ~ P99: 289.99us ~ P99.9: 546.86us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 36,456 msgs/sec ~ 36 MiB/sec ~ min: 1,683.60us ~ avg: 2,740.35us ~ max: 67,210.45us ~ P50: 2,483.03us ~ P90: 3,473.19us ~ P99: 5,692.02us ~ P99.9: 27,627.54us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 52,412 msgs/sec ~ 51 MiB/sec ~ min: 6,622.96us ~ avg: 9,534.69us ~ max: 24,387.44us ~ P50: 9,062.26us ~ P90: 11,634.02us ~ P99: 17,054.87us ~ P99.9: 24,387.44us
+
+Size: 2048
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,714 msgs/sec ~ 5.3 MiB/sec ~ min: 237.94us ~ avg: 365.81us ~ max: 33,208.97us ~ P50: 353.70us ~ P90: 413.22us ~ P99: 562.54us ~ P99.9: 1,181.17us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 24,954 msgs/sec ~ 49 MiB/sec ~ min: 2,886.31us ~ avg: 4,004.72us ~ max: 18,260.62us ~ P50: 3,738.69us ~ P90: 4,937.35us ~ P99: 7,434.00us ~ P99.9: 13,163.13us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 36,221 msgs/sec ~ 71 MiB/sec ~ min: 10,718.15us ~ avg: 13,798.80us ~ max: 67,269.12us ~ P50: 13,021.56us ~ P90: 16,160.82us ~ P99: 23,756.02us ~ P99.9: 67,269.12us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,942 msgs/sec ~ 5.7 MiB/sec ~ min: 218.08us ~ avg: 337.23us ~ max: 42,090.91us ~ P50: 324.18us ~ P90: 384.12us ~ P99: 511.22us ~ P99.9: 1,139.84us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 47,834 msgs/sec ~ 93 MiB/sec ~ min: 1,230.86us ~ avg: 2,088.23us ~ max: 13,950.32us ~ P50: 1,945.99us ~ P90: 2,732.57us ~ P99: 4,096.31us ~ P99.9: 11,584.21us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 47,846 msgs/sec ~ 94 MiB/sec ~ min: 7,215.59us ~ avg: 10,444.28us ~ max: 159,132.44us ~ P50: 9,686.19us ~ P90: 13,016.59us ~ P99: 17,555.71us ~ P99.9: 159,132.44us
+
+Size: 4096
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,555 msgs/sec ~ 10 MiB/sec ~ min: 244.37us ~ avg: 388.58us ~ max: 48,879.07us ~ P50: 369.23us ~ P90: 428.92us ~ P99: 588.97us ~ P99.9: 1,304.86us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 20,550 msgs/sec ~ 80 MiB/sec ~ min: 3,567.47us ~ avg: 4,863.67us ~ max: 47,744.85us ~ P50: 4,512.7us ~ P90: 6,008.11us ~ P99: 8,777.86us ~ P99.9: 16,741.03us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 23,490 msgs/sec ~ 92 MiB/sec ~ min: 16,099.15us ~ avg: 21,280.01us ~ max: 229,322.43us ~ P50: 19,906.29us ~ P90: 25,875.47us ~ P99: 32,572.04us ~ P99.9: 229,322.43us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 5,333 msgs/sec ~ 21 MiB/sec ~ min: 104.89us ~ avg: 185.00us ~ max: 32,141.62us ~ P50: 176.58us ~ P90: 224.02us ~ P99: 326.28us ~ P99.9: 669.44us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 29,287 msgs/sec ~ 114 MiB/sec ~ min: 2,105.85us ~ avg: 3,411.60us ~ max: 53,110.35us ~ P50: 3,062.39us ~ P90: 4,689.06us ~ P99: 7,054.49us ~ P99.9: 24,531.37us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 39,944 msgs/sec ~ 156 MiB/sec ~ min: 8,284.39us ~ avg: 12,511.83us ~ max: 79,647.85us ~ P50: 11,507.86us ~ P90: 17,094.46us ~ P99: 21,848.17us ~ P99.9: 79,647.85us
+
+Size: 8192
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,498 msgs/sec ~ 20 MiB/sec ~ min: 257.68us ~ avg: 397.61us ~ max: 42,997.52us ~ P50: 374.38us ~ P90: 438.80us ~ P99: 687.97us ~ P99.9: 1,502.40us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 17,829 msgs/sec ~ 139 MiB/sec ~ min: 3,859.37us ~ avg: 5,606.02us ~ max: 142,406.72us ~ P50: 5,115.58us ~ P90: 7,190.80us ~ P99: 10,374.97us ~ P99.9: 17,244.88us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 19,654 msgs/sec ~ 154 MiB/sec ~ min: 17,822.45us ~ avg: 25,433.88us ~ max: 89,540.02us ~ P50: 24,004.20us ~ P90: 31,451.05us ~ P99: 41,947.26us ~ P99.9: 89,540.02us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,737 msgs/sec ~ 21 MiB/sec ~ min: 227.05us ~ avg: 362.60us ~ max: 37,101.28us ~ P50: 342.03us ~ P90: 410.49us ~ P99: 649.10us ~ P99.9: 1,336.57us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 33,933 msgs/sec ~ 265 MiB/sec ~ min: 1,684.73us ~ avg: 2,944.45us ~ max: 32,989.39us ~ P50: 2,651.7us ~ P90: 4,079.54us ~ P99: 6,197.80us ~ P99.9: 19,619.62us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 31,241 msgs/sec ~ 244 MiB/sec ~ min: 10,426.51us ~ avg: 15,999.18us ~ max: 147,803.27us ~ P50: 14,926.92us ~ P90: 20,632.59us ~ P99: 25,208.70us ~ P99.9: 147,803.27us
+
+Size: 16384
+Sync Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 3,772 msgs/sec ~ 59 MiB/sec ~ min: 139.64us ~ avg: 262.52us ~ max: 42,542.82us ~ P50: 229.52us ~ P90: 281.17us ~ P99: 504.47us ~ P99.9: 17,942.14us
+
+Sync Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 13,388 msgs/sec ~ 209 MiB/sec ~ min: 4,553.80us ~ avg: 7,466.08us ~ max: 118,012.25us ~ P50: 6,783.86us ~ P90: 10,010.51us ~ P99: 13,767.17us ~ P99.9: 46,799.62us
+
+Sync Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 17,815 msgs/sec ~ 278 MiB/sec ~ min: 19,692.57us ~ avg: 28,059.81us ~ max: 284,939.13us ~ P50: 26,430.94us ~ P90: 34,434.91us ~ P99: 43,329.54us ~ P99.9: 284,939.13us
+
+Async Flush: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,342 msgs/sec ~ 37 MiB/sec ~ min: 251.60us ~ avg: 424.08us ~ max: 60,793.25us ~ P50: 373.87us ~ P90: 436.99us ~ P99: 929.41us ~ P99.9: 17,841.73us
+
+Async Flush: Batch 100
+
+NATS JetStream asynchronous publisher stats: 14,129 msgs/sec ~ 221 MiB/sec ~ min: 3,570.41us ~ avg: 7,074.53us ~ max: 260,405.64us ~ P50: 6,696.93us ~ P90: 8,871.08us ~ P99: 13,314.86us ~ P99.9: 37,675.23us
+
+Async Flush: Batch 500
+
+NATS JetStream asynchronous publisher stats: 17,434 msgs/sec ~ 272 MiB/sec ~ min: 16,940.63us ~ avg: 28,671.49us ~ max: 232,318.06us ~ P50: 28,103.30us ~ P90: 33,823.27us ~ P99: 45,864.47us ~ P99.9: 232,318.06us
+

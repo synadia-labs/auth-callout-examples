@@ -1,0 +1,208 @@
+Size: 128
+2.11.11: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,660 msgs/sec ~ 583 KiB/sec ~ 214.56us
+
+2.11.11: Batch 100
+
+NATS JetStream asynchronous publisher stats: 60,644 msgs/sec ~ 7.4 MiB/sec ~ 16.49us
+
+2.11.11: Batch 500
+
+NATS JetStream asynchronous publisher stats: 85,579 msgs/sec ~ 10 MiB/sec ~ 11.69us
+
+Size: 256
+2.11.11: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,639 msgs/sec ~ 1.1 MiB/sec ~ 215.53us
+
+2.11.11: Batch 100
+
+NATS JetStream asynchronous publisher stats: 56,744 msgs/sec ~ 14 MiB/sec ~ 17.62us
+
+2.11.11: Batch 500
+
+NATS JetStream asynchronous publisher stats: 76,591 msgs/sec ~ 19 MiB/sec ~ 13.06us
+
+Size: 512
+2.11.11: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,537 msgs/sec ~ 2.2 MiB/sec ~ 220.37us
+
+2.11.11: Batch 100
+
+NATS JetStream asynchronous publisher stats: 46,627 msgs/sec ~ 23 MiB/sec ~ 21.45us
+
+2.11.11: Batch 500
+
+NATS JetStream asynchronous publisher stats: 62,367 msgs/sec ~ 30 MiB/sec ~ 16.03us
+
+Size: 1024
+2.11.11: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,148 msgs/sec ~ 4.1 MiB/sec ~ 241.04us
+
+2.11.11: Batch 100
+
+NATS JetStream asynchronous publisher stats: 39,266 msgs/sec ~ 38 MiB/sec ~ 25.47us
+
+2.11.11: Batch 500
+
+NATS JetStream asynchronous publisher stats: 46,467 msgs/sec ~ 45 MiB/sec ~ 21.52us
+
+Size: 2048
+2.11.11: Batch 1
+
+NATS JetStream synchronous publisher stats: 3,817 msgs/sec ~ 7.5 MiB/sec ~ 261.96us
+
+2.11.11: Batch 100
+
+NATS JetStream asynchronous publisher stats: 28,326 msgs/sec ~ 55 MiB/sec ~ 35.30us
+
+2.11.11: Batch 500
+
+NATS JetStream asynchronous publisher stats: 31,285 msgs/sec ~ 61 MiB/sec ~ 31.96us
+
+Size: 4096
+2.11.11: Batch 1
+
+NATS JetStream synchronous publisher stats: 3,350 msgs/sec ~ 13 MiB/sec ~ 298.42us
+
+2.11.11: Batch 100
+
+NATS JetStream asynchronous publisher stats: 16,095 msgs/sec ~ 63 MiB/sec ~ 62.13us
+
+2.11.11: Batch 500
+
+NATS JetStream asynchronous publisher stats: 18,125 msgs/sec ~ 71 MiB/sec ~ 55.17us
+
+Size: 8192
+2.11.11: Batch 1
+
+NATS JetStream synchronous publisher stats: 3,542 msgs/sec ~ 28 MiB/sec ~ 282.26us
+
+2.11.11: Batch 100
+
+NATS JetStream asynchronous publisher stats: 17,891 msgs/sec ~ 140 MiB/sec ~ 55.89us
+
+2.11.11: Batch 500
+
+NATS JetStream asynchronous publisher stats: 17,765 msgs/sec ~ 139 MiB/sec ~ 56.29us
+
+Size: 16384
+2.11.11: Batch 1
+
+NATS JetStream synchronous publisher stats: 2,984 msgs/sec ~ 47 MiB/sec ~ 335.08us
+
+2.11.11: Batch 100
+
+NATS JetStream asynchronous publisher stats: 9,035 msgs/sec ~ 141 MiB/sec ~ 110.68us
+
+2.11.11: Batch 500
+
+NATS JetStream asynchronous publisher stats: 9,117 msgs/sec ~ 142 MiB/sec ~ 109.68us
+
+Size: 128
+2.12.2: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,824 msgs/sec ~ 603 KiB/sec ~ 207.26us
+
+2.12.2: Batch 100
+
+NATS JetStream asynchronous publisher stats: 69,303 msgs/sec ~ 8.5 MiB/sec ~ 14.43us
+
+2.12.2: Batch 500
+
+NATS JetStream asynchronous publisher stats: 92,979 msgs/sec ~ 11 MiB/sec ~ 10.76us
+
+Size: 256
+2.12.2: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,267 msgs/sec ~ 1.0 MiB/sec ~ 234.34us
+
+2.12.2: Batch 100
+
+NATS JetStream asynchronous publisher stats: 62,893 msgs/sec ~ 15 MiB/sec ~ 15.90us
+
+2.12.2: Batch 500
+
+NATS JetStream asynchronous publisher stats: 82,723 msgs/sec ~ 20 MiB/sec ~ 12.09us
+
+Size: 512
+2.12.2: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,763 msgs/sec ~ 2.3 MiB/sec ~ 209.91us
+
+2.12.2: Batch 100
+
+NATS JetStream asynchronous publisher stats: 54,387 msgs/sec ~ 27 MiB/sec ~ 18.39us
+
+2.12.2: Batch 500
+
+NATS JetStream asynchronous publisher stats: 70,460 msgs/sec ~ 34 MiB/sec ~ 14.19us
+
+Size: 1024
+2.12.2: Batch 1
+
+NATS JetStream synchronous publisher stats: 4,159 msgs/sec ~ 4.1 MiB/sec ~ 240.42us
+
+2.12.2: Batch 100
+
+NATS JetStream asynchronous publisher stats: 43,585 msgs/sec ~ 43 MiB/sec ~ 22.94us
+
+2.12.2: Batch 500
+
+NATS JetStream asynchronous publisher stats: 53,526 msgs/sec ~ 52 MiB/sec ~ 18.68us
+
+Size: 2048
+2.12.2: Batch 1
+
+NATS JetStream synchronous publisher stats: 3,690 msgs/sec ~ 7.2 MiB/sec ~ 270.95us
+
+2.12.2: Batch 100
+
+NATS JetStream asynchronous publisher stats: 28,795 msgs/sec ~ 56 MiB/sec ~ 34.73us
+
+2.12.2: Batch 500
+
+NATS JetStream asynchronous publisher stats: 32,754 msgs/sec ~ 64 MiB/sec ~ 30.53us
+
+Size: 4096
+2.12.2: Batch 1
+
+NATS JetStream synchronous publisher stats: 3,281 msgs/sec ~ 13 MiB/sec ~ 304.75us
+
+2.12.2: Batch 100
+
+NATS JetStream asynchronous publisher stats: 18,063 msgs/sec ~ 71 MiB/sec ~ 55.36us
+
+2.12.2: Batch 500
+
+NATS JetStream asynchronous publisher stats: 19,275 msgs/sec ~ 75 MiB/sec ~ 51.88us
+
+Size: 8192
+2.12.2: Batch 1
+
+NATS JetStream synchronous publisher stats: 3,674 msgs/sec ~ 29 MiB/sec ~ 272.13us
+
+2.12.2: Batch 100
+
+NATS JetStream asynchronous publisher stats: 17,929 msgs/sec ~ 140 MiB/sec ~ 55.77us
+
+2.12.2: Batch 500
+
+NATS JetStream asynchronous publisher stats: 17,999 msgs/sec ~ 141 MiB/sec ~ 55.56us
+
+Size: 16384
+2.12.2: Batch 1
+
+NATS JetStream synchronous publisher stats: 3,004 msgs/sec ~ 47 MiB/sec ~ 332.79us
+
+2.12.2: Batch 100
+
+NATS JetStream asynchronous publisher stats: 9,142 msgs/sec ~ 143 MiB/sec ~ 109.38us
+
+2.12.2: Batch 500
+
+NATS JetStream asynchronous publisher stats: 9,107 msgs/sec ~ 142 MiB/sec ~ 109.80us
+

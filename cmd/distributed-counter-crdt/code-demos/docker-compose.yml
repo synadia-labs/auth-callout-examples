@@ -1,0 +1,115 @@
+services:
+  global:
+    build: ./global
+    ports:
+      - "8081:8080"
+      - "7422:7422"
+    environment:
+      - STORE_DIR=/data
+    volumes:
+      - global-data:/data
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8080/"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+    restart: on-failure
+
+  asia:
+    build: ./asia
+    ports:
+      - "8080:8080"
+    environment:
+      - LEAF_REMOTE_URL=nats://global:7422
+      - STORE_DIR=/data
+    volumes:
+      - asia-data:/data
+    depends_on:
+      global:
+        condition: service_healthy
+    restart: on-failure
+
+  america:
+    build: ./america
+    ports:
+      - "8082:8080"
+    environment:
+      - LEAF_REMOTE_URL=nats://global:7422
+      - STORE_DIR=/data
+    volumes:
+      - america-data:/data
+    depends_on:
+      global:
+        condition: service_healthy
+    restart: on-failure
+
+  europe:
+    build: ./europe
+    ports:
+      - "8083:8080"
+      - "7423:7422"
+    environment:
+      - LEAF_REMOTE_URL=nats://global:7422
+      - STORE_DIR=/data
+    volumes:
+      - europe-data:/data
+    depends_on:
+      global:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8080/"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+    restart: on-failure
+
+  spain:
+    build: ./spain
+    ports:
+      - "8084:8080"
+    environment:
+      - LEAF_REMOTE_URL=nats://europe:7422
+      - STORE_DIR=/data
+    volumes:
+      - spain-data:/data
+    depends_on:
+      europe:
+        condition: service_healthy
+    restart: on-failure
+
+  france:
+    build: ./france
+    ports:
+      - "8085:8080"
+    environment:
+      - LEAF_REMOTE_URL=nats://europe:7422
+      - STORE_DIR=/data
+    volumes:
+      - france-data:/data
+    depends_on:
+      europe:
+        condition: service_healthy
+    restart: on-failure
+
+  england:
+    build: ./england
+    ports:
+      - "8086:8080"
+    environment:
+      - LEAF_REMOTE_URL=nats://europe:7422
+      - STORE_DIR=/data
+    volumes:
+      - england-data:/data
+    depends_on:
+      europe:
+        condition: service_healthy
+    restart: on-failure
+
+volumes:
+  global-data:
+  asia-data:
+  america-data:
+  europe-data:
+  spain-data:
+  france-data:
+  england-data:

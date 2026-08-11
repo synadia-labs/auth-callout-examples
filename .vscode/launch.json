@@ -1,0 +1,95 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}"
+        },
+        {
+            "name": "embedded-demo (asia)",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/distributed-counter-crdt/embedded-demo",
+            "env": {
+                "NODE_ID": "asia",
+                "COLOR": "#f97316"
+            }
+        },
+        {
+            "name": "code-demo: asia",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/distributed-counter-crdt/code-demos/asia",
+            "env": {
+                "LEAF_REMOTE_URL": "nats://localhost:7422",
+                "STORE_DIR": "/tmp/asia-debug",
+                "HTTP_ADDR": ":8080"
+            }
+        },
+        {
+            "name": "code-demo: america",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/distributed-counter-crdt/code-demos/america",
+            "env": {
+                "LEAF_REMOTE_URL": "nats://localhost:7422",
+                "STORE_DIR": "/tmp/america-debug",
+                "HTTP_ADDR": ":8089"
+            }
+        },
+        {
+            "name": "code-demo: europe",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/distributed-counter-crdt/code-demos/europe",
+            "env": {
+                "LEAF_REMOTE_URL": "nats://localhost:7422",
+                "STORE_DIR": "/tmp/europe-debug",
+                "HTTP_ADDR": ":8089"
+            }
+        },
+        {
+            "name": "code-demo: spain",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/distributed-counter-crdt/code-demos/spain",
+            "env": {
+                "LEAF_REMOTE_URL": "nats://localhost:7423",
+                "STORE_DIR": "/tmp/spain-debug",
+                "HTTP_ADDR": ":8089"
+            }
+        },
+        {
+            "name": "code-demo: france",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/distributed-counter-crdt/code-demos/france",
+            "env": {
+                "LEAF_REMOTE_URL": "nats://localhost:7423",
+                "STORE_DIR": "/tmp/france-debug",
+                "HTTP_ADDR": ":8089"
+            }
+        },
+        {
+            "name": "code-demo: england",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/distributed-counter-crdt/code-demos/england",
+            "env": {
+                "LEAF_REMOTE_URL": "nats://localhost:7423",
+                "STORE_DIR": "/tmp/england-debug",
+                "HTTP_ADDR": ":8089"
+            }
+        }
+    ]
+}
