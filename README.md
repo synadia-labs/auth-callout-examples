@@ -7,9 +7,8 @@ Runnable demos for NATS JetStream features, backed by a self-contained local ser
 | Tool | Version | Install |
 |---|---|---|
 | Java | 1.22+ | [go.dev/dl](https://go.dev/dl/) |
-| Task | any | [taskfile.dev](https://taskfile.dev) |
 | nats CLI | 0.3+ | `go install github.com/nats-io/natscli/nats@latest` |
-|nats | nsc | 
+|nats nsc | https://github.com/nats-io/nsc | 
 
 `nats-server` is downloaded automatically by the Task commands — no manual install needed.
 
