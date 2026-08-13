@@ -10,7 +10,7 @@ This project contains a series of examples of how to use AuthCallout in differen
 
 | Tool | Version | Install |
 |---|---|---|
-| Java | jdk 23 + | (https://openjdk.org/install/) |
+| Java | jdk 23 + | https://openjdk.org/install/ |
 | maven|3.9.9+|https://maven.apache.org/download.cgi|
 | nats CLI | 0.3+ | `go install github.com/nats-io/natscli/nats@latest` |
 |nats nsc |v2.15.0 |https://github.com/nats-io/nsc | 
