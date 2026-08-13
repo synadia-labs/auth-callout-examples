@@ -1,0 +1,108 @@
+2026-08-10 17:42:59.221 [main] INFO  io.synadia.authcallout.Main - Starting decentralized AuthCallout service
+2026-08-10 17:44:44.294 [main] INFO  io.synadia.authcallout.Main - Starting decentralized AuthCallout service
+2026-08-10 17:44:44.390 [main] INFO  i.s.a.s.handler.MySqlAuthHandler - MySqlAuthHandler ready — url: jdbc:mysql://localhost:3306/b2_test_db
+2026-08-10 17:44:44.390 [main] INFO  io.synadia.authcallout.Main - NKey authentication disabled (auth.decentralized.nkey.enabled=false)
+2026-08-10 17:44:44.394 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService initialised — account: ABMHTIACDFJ5FN3HHZBJBFFWQGM626FEFOE7ZIETE3NWCM5ZSJSKC7GO, issuerAccount: ABGJS63T755HMAVVK73AXEAIHLBKFSRHJPAI3IB74YEZ7QUP4CKJ6DFA, xkey: disabled, signingKey: ABGJS63T755HMAVVK73AXEAIHLBKFSRHJPAI3IB74YEZ7QUP4CKJ6DFA
+2026-08-10 17:44:44.399 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService started — listening on $SYS.REQ.USER.AUTH
+2026-08-10 17:44:44.400 [main] INFO  io.synadia.authcallout.Main - Decentralized AuthCallout service running. Press Ctrl+C to stop.
+2026-08-10 17:46:50.664 [main] INFO  io.synadia.authcallout.Main - Connecting as decentralized user='bruno' sentinel=/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/NATS2/nsc_local_repo_2/creds/AuthCalloutOperator/AUTH/sentinel.creds to nats://localhost:4222
+2026-08-10 17:46:50.673 [main] INFO  i.s.a.c.NatsDecentralizedPasswordClient - Connecting as decentralized user 'bruno' with explicit sentinel @ nats://localhost:4222
+2026-08-10 17:46:50.753 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Received decentralized auth callout request on subject: $SYS.REQ.USER.AUTH
+2026-08-10 17:46:50.764 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth request — serverId: NCIDDLSGZI5W5QYGQXQTMZ442JXG3STTXXX4DQJ5CY5HU3BERSIPSOX2, userNkey: UCYHT4IOEYZMM4BJSTKPGBEL7IEX5Z2SYJ43R2A5BBDCPY2OM2S5HMEO
+2026-08-10 17:46:51.201 [nats:3] DEBUG i.s.a.s.handler.MySqlAuthHandler - MySQL auth: user 'bruno' authenticated
+2026-08-10 17:46:51.206 [nats:3] INFO  i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth SUCCESS — identity='bruno', account='APP'
+2026-08-10 17:46:51.209 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth response sent — success: true
+2026-08-10 17:46:51.214 [main] DEBUG i.s.a.c.NatsDecentralizedPasswordClient - Published to '“test': payload”
+2026-08-10 17:46:51.215 [nats:3] DEBUG i.s.a.c.NatsDecentralizedPasswordClient - Received message on '￢ﾀﾜtest'
+2026-08-10 17:46:52.220 [main] INFO  i.s.a.c.NatsDecentralizedPasswordClient - Disconnected from NATS (decentralized user: bruno)
+2026-08-10 17:52:03.216 [main] INFO  io.synadia.authcallout.Main - Connecting as decentralized user='bruno' sentinel=/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/NATS2/nsc_local_repo_2/creds/AuthCalloutOperator/AUTH/sentinel.creds to nats://localhost:4222
+2026-08-10 17:52:03.225 [main] INFO  i.s.a.c.NatsDecentralizedPasswordClient - Connecting as decentralized user 'bruno' with explicit sentinel @ nats://localhost:4222
+2026-08-10 17:52:03.300 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Received decentralized auth callout request on subject: $SYS.REQ.USER.AUTH
+2026-08-10 17:52:03.303 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth request — serverId: NCIDDLSGZI5W5QYGQXQTMZ442JXG3STTXXX4DQJ5CY5HU3BERSIPSOX2, userNkey: UCU6PEQRNA72KM3AV3PRBGLV72KKBSU44C7JDDWDJ353XM65OJW4HW54
+2026-08-10 17:52:03.354 [nats:3] DEBUG i.s.a.s.handler.MySqlAuthHandler - MySQL auth: invalid password for user 'bruno'
+2026-08-10 17:52:03.354 [nats:3] WARN  i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth FAILED — identity='bruno', reason='Invalid password'
+2026-08-10 17:52:03.355 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth response sent — success: false
+2026-08-10 17:52:03.357 [pool-1-thread-1] WARN  i.s.a.c.NatsDecentralizedPasswordClient - [CLIENT] Server error for user 'bruno': Authorization Violation
+2026-08-10 17:52:05.278 [main] ERROR io.synadia.authcallout.Main - Client-decentralized-pass: authentication failed for user 'bruno'
+2026-08-10 17:52:32.413 [main] INFO  io.synadia.authcallout.Main - Connecting as decentralized user='alice' sentinel=/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/NATS2/nsc_local_repo_2/creds/AuthCalloutOperator/AUTH/sentinel.creds to nats://localhost:4222
+2026-08-10 17:52:32.423 [main] INFO  i.s.a.c.NatsDecentralizedPasswordClient - Connecting as decentralized user 'alice' with explicit sentinel @ nats://localhost:4222
+2026-08-10 17:52:32.511 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Received decentralized auth callout request on subject: $SYS.REQ.USER.AUTH
+2026-08-10 17:52:32.513 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth request — serverId: NCIDDLSGZI5W5QYGQXQTMZ442JXG3STTXXX4DQJ5CY5HU3BERSIPSOX2, userNkey: UBL5Y24STGKU3ACWR5ROZHVECUXIRTMX3VGP442RRGBR4S23WCJG5JO7
+2026-08-10 17:52:32.546 [nats:3] DEBUG i.s.a.s.handler.MySqlAuthHandler - MySQL auth: user 'alice' not found
+2026-08-10 17:52:32.547 [nats:3] WARN  i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth FAILED — identity='alice', reason='User not found: alice'
+2026-08-10 17:52:32.548 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth response sent — success: false
+2026-08-10 17:52:32.549 [pool-1-thread-1] WARN  i.s.a.c.NatsDecentralizedPasswordClient - [CLIENT] Server error for user 'alice': Authorization Violation
+2026-08-10 17:52:34.479 [main] ERROR io.synadia.authcallout.Main - Client-decentralized-pass: authentication failed for user 'alice'
+2026-08-10 18:10:54.390 [Thread-1] INFO  io.synadia.authcallout.Main - Shutdown signal received
+2026-08-10 18:10:54.392 [Thread-1] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService stopped
+2026-08-10 18:10:56.435 [main] INFO  io.synadia.authcallout.Main - Starting decentralized AuthCallout service
+2026-08-10 18:10:56.514 [main] INFO  i.s.a.s.handler.MySqlAuthHandler - MySqlAuthHandler ready — url: jdbc:mysql://localhost:3306/b2_test_db
+2026-08-10 18:10:56.515 [main] INFO  io.synadia.authcallout.Main - NKey authentication disabled (auth.decentralized.nkey.enabled=false)
+2026-08-10 18:10:56.517 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService initialised — account: ABMHTIACDFJ5FN3HHZBJBFFWQGM626FEFOE7ZIETE3NWCM5ZSJSKC7GO, issuerAccount: ABGJS63T755HMAVVK73AXEAIHLBKFSRHJPAI3IB74YEZ7QUP4CKJ6DFA, xkey: disabled, signingKey: ABGJS63T755HMAVVK73AXEAIHLBKFSRHJPAI3IB74YEZ7QUP4CKJ6DFA
+2026-08-10 18:10:56.522 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService started — listening on $SYS.REQ.USER.AUTH
+2026-08-10 18:10:56.522 [main] INFO  io.synadia.authcallout.Main - Decentralized AuthCallout service running. Press Ctrl+C to stop.
+2026-08-10 18:11:28.375 [main] INFO  io.synadia.authcallout.Main - Connecting as decentralized user='bruno' sentinel=default_sentinel to nats://localhost:4222
+2026-08-10 18:11:28.382 [main] INFO  i.s.a.c.NatsDecentralizedPasswordClient - Connecting as decentralized user 'bruno' (default_sentinel) @ nats://localhost:4222
+2026-08-10 18:11:28.439 [pool-1-thread-1] WARN  i.s.a.c.NatsDecentralizedPasswordClient - [CLIENT] Server error for user 'bruno': Authorization Violation
+2026-08-10 18:11:30.436 [main] ERROR io.synadia.authcallout.Main - Client-decentralized-pass: authentication failed for user 'bruno'
+2026-08-10 18:11:49.113 [main] INFO  io.synadia.authcallout.Main - Connecting as decentralized user='bruno' sentinel=/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/NATS2/nsc_local_repo_2/creds/AuthCalloutOperator/AUTH/sentinel.creds to nats://localhost:4222
+2026-08-10 18:11:49.122 [main] INFO  i.s.a.c.NatsDecentralizedPasswordClient - Connecting as decentralized user 'bruno' with explicit sentinel @ nats://localhost:4222
+2026-08-10 18:11:49.205 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Received decentralized auth callout request on subject: $SYS.REQ.USER.AUTH
+2026-08-10 18:11:49.229 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth request — serverId: NBYTQZHJUKJXXQNPVBHUTHN5I5SNDISQ45JVDVHLTR6L2VZYWACMXE7M, userNkey: UBGW63VKAKI3VGUCAWFBT6GQTL3VWOX7V576XYMZZYORXHVONGAARNNL
+2026-08-10 18:11:49.464 [nats:3] DEBUG i.s.a.s.handler.MySqlAuthHandler - MySQL auth: user 'bruno' authenticated
+2026-08-10 18:11:49.467 [nats:3] INFO  i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth SUCCESS — identity='bruno', account='APP'
+2026-08-10 18:11:49.470 [nats:3] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth response sent — success: true
+2026-08-10 18:11:49.473 [main] DEBUG i.s.a.c.NatsDecentralizedPasswordClient - Published to '“test': payload”
+2026-08-10 18:11:49.474 [nats:3] DEBUG i.s.a.c.NatsDecentralizedPasswordClient - Received message on '￢ﾀﾜtest'
+2026-08-10 18:11:50.485 [main] INFO  i.s.a.c.NatsDecentralizedPasswordClient - Disconnected from NATS (decentralized user: bruno)
+2026-08-10 18:18:53.794 [Thread-1] INFO  io.synadia.authcallout.Main - Shutdown signal received
+2026-08-10 18:19:13.751 [main] INFO  io.synadia.authcallout.Main - Starting decentralized AuthCallout service
+2026-08-10 18:19:13.869 [main] WARN  io.synadia.authcallout.Main - KV bucket 'auth-users' not found — password (kv) authentication disabled: io.nats.client.JetStreamApiException: stream not found [10059]
+2026-08-10 18:19:13.872 [main] WARN  io.synadia.authcallout.Main - NKey KV bucket 'auth-nkeys' not found — NKey authentication disabled: io.nats.client.JetStreamApiException: stream not found [10059]
+2026-08-10 18:19:13.876 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService initialised — account: AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S, issuerAccount: AAHN6BYPGW3YAUDN25LOQJDGXKBM6PBW54ERO54FHX62KEFTKY4Y7DJ5, xkey: disabled, signingKey: AA2MWFD4S2OZF4V3AUU3VQMJGBG6VY36UIHRQUNW27LYQ6YHNO5SBDWP
+2026-08-10 18:19:13.882 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService started — listening on $SYS.REQ.USER.AUTH
+2026-08-10 18:19:13.882 [main] INFO  io.synadia.authcallout.Main - Decentralized AuthCallout service running. Press Ctrl+C to stop.
+2026-08-10 18:23:57.279 [Thread-1] INFO  io.synadia.authcallout.Main - Shutdown signal received
+2026-08-10 18:23:57.286 [Thread-1] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService stopped
+2026-08-10 18:25:29.282 [main] INFO  io.synadia.authcallout.Main - Starting decentralized AuthCallout service
+2026-08-10 18:25:29.381 [main] WARN  io.synadia.authcallout.Main - KV bucket 'auth-users' not found — password (kv) authentication disabled: io.nats.client.JetStreamApiException: stream not found [10059]
+2026-08-10 18:25:29.394 [main] INFO  i.s.a.s.h.DecentralizedNKeyKvAuthHandler - DecentralizedNKeyKvAuthHandler ready — bucket: auth-nkeys
+2026-08-10 18:25:29.399 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService initialised — account: AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S, issuerAccount: AAHN6BYPGW3YAUDN25LOQJDGXKBM6PBW54ERO54FHX62KEFTKY4Y7DJ5, xkey: disabled, signingKey: AA2MWFD4S2OZF4V3AUU3VQMJGBG6VY36UIHRQUNW27LYQ6YHNO5SBDWP
+2026-08-10 18:25:29.403 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService started — listening on $SYS.REQ.USER.AUTH
+2026-08-10 18:25:29.403 [main] INFO  io.synadia.authcallout.Main - Decentralized AuthCallout service running. Press Ctrl+C to stop.
+2026-08-10 18:26:19.695 [Thread-1] INFO  io.synadia.authcallout.Main - Shutdown signal received
+2026-08-10 18:26:19.699 [Thread-1] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService stopped
+2026-08-10 18:26:21.574 [main] INFO  io.synadia.authcallout.Main - Starting decentralized AuthCallout service
+2026-08-10 18:26:21.678 [main] WARN  io.synadia.authcallout.Main - KV bucket 'auth-users' not found — password (kv) authentication disabled: io.nats.client.JetStreamApiException: stream not found [10059]
+2026-08-10 18:26:21.688 [main] INFO  i.s.a.s.h.DecentralizedNKeyKvAuthHandler - DecentralizedNKeyKvAuthHandler ready — bucket: auth-nkeys
+2026-08-10 18:26:21.691 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService initialised — account: AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S, issuerAccount: AAHN6BYPGW3YAUDN25LOQJDGXKBM6PBW54ERO54FHX62KEFTKY4Y7DJ5, xkey: disabled, signingKey: AA2MWFD4S2OZF4V3AUU3VQMJGBG6VY36UIHRQUNW27LYQ6YHNO5SBDWP
+2026-08-10 18:26:21.694 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService started — listening on $SYS.REQ.USER.AUTH
+2026-08-10 18:26:21.694 [main] INFO  io.synadia.authcallout.Main - Decentralized AuthCallout service running. Press Ctrl+C to stop.
+2026-08-10 18:27:01.922 [Thread-1] INFO  io.synadia.authcallout.Main - Shutdown signal received
+2026-08-10 18:27:01.927 [Thread-1] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService stopped
+2026-08-10 18:28:25.980 [main] INFO  io.synadia.authcallout.Main - Starting decentralized AuthCallout service
+2026-08-10 18:28:26.087 [main] WARN  io.synadia.authcallout.Main - KV bucket 'auth-users' not found — password (kv) authentication disabled: io.nats.client.JetStreamApiException: stream not found [10059]
+2026-08-10 18:28:26.102 [main] INFO  i.s.a.s.h.DecentralizedNKeyKvAuthHandler - DecentralizedNKeyKvAuthHandler ready — bucket: auth-nkeys
+2026-08-10 18:28:26.107 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService initialised — account: AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S, issuerAccount: AAHN6BYPGW3YAUDN25LOQJDGXKBM6PBW54ERO54FHX62KEFTKY4Y7DJ5, xkey: disabled, signingKey: AA2MWFD4S2OZF4V3AUU3VQMJGBG6VY36UIHRQUNW27LYQ6YHNO5SBDWP
+2026-08-10 18:28:26.111 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService started — listening on $SYS.REQ.USER.AUTH
+2026-08-10 18:28:26.111 [main] INFO  io.synadia.authcallout.Main - Decentralized AuthCallout service running. Press Ctrl+C to stop.
+2026-08-10 18:28:40.375 [main] INFO  io.synadia.authcallout.Main - Connecting via NKey challenge-response to nats://localhost:4222
+2026-08-10 18:28:40.474 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Received decentralized auth callout request on subject: $SYS.REQ.USER.AUTH
+2026-08-10 18:28:40.483 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth request — serverId: NADUGB5OQH24SQ2HHJP52O3GPO4ATU3MZRGMHHYNFM5ITOZTWP2BM46O, userNkey: UA7UDGIVW6XOHUOVBZCDVPML2RBRJNI6WCWKSL53K5XYBVPIDWTUREO6
+2026-08-10 18:28:40.488 [nats:4] DEBUG i.s.a.s.h.DecentralizedNKeyKvAuthHandler - NKey authorized — nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF, label: authorized
+2026-08-10 18:28:40.489 [nats:4] INFO  i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth SUCCESS — identity='UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF', account='AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S'
+2026-08-10 18:28:40.493 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth response sent — success: true
+2026-08-10 18:28:40.495 [main] INFO  i.s.a.c.NatsDecentralizedNKeyClient - Connected to NATS via NKey challenge-response (public: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF) @ nats://localhost:4222
+2026-08-10 18:28:40.499 [main] DEBUG i.s.a.c.NatsDecentralizedNKeyClient - Published to 'test': hello from NKey client
+2026-08-10 18:28:40.506 [nats:3] DEBUG i.s.a.c.NatsDecentralizedNKeyClient - Received message on 'test'
+2026-08-10 18:28:41.508 [main] INFO  i.s.a.c.NatsDecentralizedNKeyClient - Disconnected from NATS (NKey client: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF)
+2026-08-10 18:30:02.948 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Received decentralized auth callout request on subject: $SYS.REQ.USER.AUTH
+2026-08-10 18:30:02.951 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth request — serverId: NADUGB5OQH24SQ2HHJP52O3GPO4ATU3MZRGMHHYNFM5ITOZTWP2BM46O, userNkey: UBIHUWLTQVVTV6TV2UNTETARH7OH77CXNX3FH5USTXMFHYMGRS3OKN4R
+2026-08-10 18:30:02.955 [nats:4] DEBUG i.s.a.s.h.DecentralizedNKeyKvAuthHandler - NKey authorized — nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF, label: authorized
+2026-08-10 18:30:02.955 [nats:4] INFO  i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth SUCCESS — identity='UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF', account='AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S'
+2026-08-10 18:30:02.961 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth response sent — success: true
+2026-08-10 18:30:18.293 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Received decentralized auth callout request on subject: $SYS.REQ.USER.AUTH
+2026-08-10 18:30:18.296 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth request — serverId: NADUGB5OQH24SQ2HHJP52O3GPO4ATU3MZRGMHHYNFM5ITOZTWP2BM46O, userNkey: UDLVX43DDYV5KUDKXVOXAOEM3V5CXC7KS63RV6WKCS6ZHDVWLPR5QWVO
+2026-08-10 18:30:18.300 [nats:4] DEBUG i.s.a.s.h.DecentralizedNKeyKvAuthHandler - NKey authorized — nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF, label: authorized
+2026-08-10 18:30:18.300 [nats:4] INFO  i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth SUCCESS — identity='UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF', account='AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S'
+2026-08-10 18:30:18.305 [nats:4] DEBUG i.s.a.s.DecentralizedAuthCalloutService - Decentralized auth response sent — success: true

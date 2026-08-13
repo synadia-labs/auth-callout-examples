@@ -1,0 +1,8 @@
+2026-05-11 12:12:49.646 [main] INFO  io.synadia.authcallout.Main - Starting decentralized AuthCallout service
+2026-05-11 12:12:49.775 [main] WARN  io.synadia.authcallout.Main - KV bucket 'auth-users' not found — password (kv) authentication disabled: io.nats.client.JetStreamApiException: stream not found [10059]
+2026-05-11 12:12:49.787 [main] INFO  i.s.a.s.h.DecentralizedNKeyKvAuthHandler - DecentralizedNKeyKvAuthHandler ready — bucket: auth-nkeys
+2026-05-11 12:12:49.791 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService initialised — account: AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S, issuerAccount: AAHN6BYPGW3YAUDN25LOQJDGXKBM6PBW54ERO54FHX62KEFTKY4Y7DJ5, xkey: disabled, signingKey: AA2MWFD4S2OZF4V3AUU3VQMJGBG6VY36UIHRQUNW27LYQ6YHNO5SBDWP
+2026-05-11 12:12:49.797 [main] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService started — listening on $SYS.REQ.USER.AUTH
+2026-05-11 12:12:49.797 [main] INFO  io.synadia.authcallout.Main - Decentralized AuthCallout service running. Press Ctrl+C to stop.
+2026-05-11 12:12:54.917 [Thread-1] INFO  io.synadia.authcallout.Main - Shutdown signal received
+2026-05-11 12:12:54.919 [Thread-1] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService stopped

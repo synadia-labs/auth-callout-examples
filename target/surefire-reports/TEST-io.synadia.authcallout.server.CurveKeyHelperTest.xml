@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="io.synadia.authcallout.server.CurveKeyHelperTest" time="0.185" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/target/test-classes:/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/target/classes:/Users/brunobaloi/.m2/repository/io/nats/jnats/2.25.2/jnats-2.25.2.jar:/Users/brunobaloi/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/brunobaloi/.m2/repository/io/nats/jwt-java/2.2.0/jwt-java-2.2.0.jar:/Users/brunobaloi/.m2/repository/io/nats/jnats-json/2.0.1/jnats-json-2.0.1.jar:/Users/brunobaloi/.m2/repository/io/nats/nkeys-java/2.1.1/nkeys-java-2.1.1.jar:/Users/brunobaloi/.m2/repository/org/bouncycastle/bcprov-lts8on/2.73.10/bcprov-lts8on-2.73.10.jar:/Users/brunobaloi/.m2/repository/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar:/Users/brunobaloi/.m2/repository/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar:/Users/brunobaloi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/brunobaloi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/brunobaloi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/brunobaloi/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/brunobaloi/.m2/repository/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.jar:/Users/brunobaloi/.m2/repository/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.jar:/Users/brunobaloi/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/Users/brunobaloi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/Users/brunobaloi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/brunobaloi/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/Users/brunobaloi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/brunobaloi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/Users/brunobaloi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/Users/brunobaloi/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:/Users/brunobaloi/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar:/Users/brunobaloi/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/brunobaloi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/Users/brunobaloi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/target/surefire/surefirebooter-20260728204901398_3.jar /Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/target/surefire 2026-07-28T20-49-01_355-jvmRun1 surefire-20260728204901398_1tmp surefire_0-20260728204901398_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="CurveKeyHelperTest"/>
+    <property name="surefire.test.class.path" value="/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/target/test-classes:/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/target/classes:/Users/brunobaloi/.m2/repository/io/nats/jnats/2.25.2/jnats-2.25.2.jar:/Users/brunobaloi/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/brunobaloi/.m2/repository/io/nats/jwt-java/2.2.0/jwt-java-2.2.0.jar:/Users/brunobaloi/.m2/repository/io/nats/jnats-json/2.0.1/jnats-json-2.0.1.jar:/Users/brunobaloi/.m2/repository/io/nats/nkeys-java/2.1.1/nkeys-java-2.1.1.jar:/Users/brunobaloi/.m2/repository/org/bouncycastle/bcprov-lts8on/2.73.10/bcprov-lts8on-2.73.10.jar:/Users/brunobaloi/.m2/repository/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar:/Users/brunobaloi/.m2/repository/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar:/Users/brunobaloi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/brunobaloi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/brunobaloi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/brunobaloi/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/brunobaloi/.m2/repository/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.jar:/Users/brunobaloi/.m2/repository/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.jar:/Users/brunobaloi/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/Users/brunobaloi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/Users/brunobaloi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/brunobaloi/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/Users/brunobaloi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/brunobaloi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/Users/brunobaloi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/Users/brunobaloi/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:/Users/brunobaloi/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar:/Users/brunobaloi/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/brunobaloi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/Users/brunobaloi/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/brunobaloi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service/target/surefire/surefirebooter-20260728204901398_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="brunobaloi"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/brunobaloi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/k3/hrjk_b_132s8j3sz_2fj0z280000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/brunobaloi/Synadia/Synadia_Projects/CodeRepository/Java/synadia-authcallout-service"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/brunobaloi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testOpenWithNaClBoxFormat" classname="io.synadia.authcallout.server.CurveKeyHelperTest" time="0.172">
+    <system-out><![CDATA[Seed NKey:   SC4ACAQDAQCQMBYIBEFAWDANBYHRAEISCMKBKFQXDAMRUGY4DUPB6IEQ2U
+Sender NKey: XBMGTL7UKBKJOMWLVLWV4XPZWMFG3IY4WDSXIK5NLLKKDJ3I6GTHXST6
+20:49:02.013 [main] DEBUG i.s.a.server.CurveKeyHelper - nonce:       000102030405060708090a0b0c0d0e0f1011121314151617
+20:49:02.014 [main] DEBUG i.s.a.server.CurveKeyHelper - receivedMac: b8bffd9ddc00c3bff470a84a5b39de04
+20:49:02.015 [main] DEBUG i.s.a.server.CurveKeyHelper - ciphertext[0..7]: 7a90b735351d0abd
+20:49:02.015 [main] DEBUG i.s.a.server.CurveKeyHelper - rawDh:   a84dc7c3c8f058b1b2dc4cd1e9b5dc0a7987f88b6a9564cde3391fc421159e77
+20:49:02.015 [main] DEBUG i.s.a.server.CurveKeyHelper - boxKey:  ec88f6e13b22bf9f04d480e0d8525c08ac7e2f48e212742bcbcafa104a74b08d
+20:49:02.016 [main] DEBUG i.s.a.server.CurveKeyHelper - subKey:     a6de0fbf360bd9cc46d20f83d0cba402816a0e40e7d533f0a6fabc626a05b68c
+20:49:02.016 [main] DEBUG i.s.a.server.CurveKeyHelper - innerNonce: 1011121314151617
+20:49:02.016 [main] DEBUG i.s.a.server.CurveKeyHelper - polyKey: 6083354f61645e118d0ce3486de98296bdc4c48134fd88418f8116ec3e760fc1
+20:49:02.016 [main] DEBUG i.s.a.server.CurveKeyHelper - computedMac: b8bffd9ddc00c3bff470a84a5b39de04
+20:49:02.016 [main] DEBUG i.s.a.server.CurveKeyHelper - MAC OK
+]]></system-out>
+  </testcase>
+</testsuite>

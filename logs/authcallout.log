@@ -1,0 +1,25 @@
+2026-08-11 11:44:00.710 [Thread-1] INFO  io.synadia.authcallout.Main - Shutdown signal received
+2026-08-11 11:44:00.746 [Thread-1] INFO  i.s.a.s.DecentralizedAuthCalloutService - DecentralizedAuthCalloutService stopped
+2026-08-11 11:50:08.937 [main] INFO  io.synadia.authcallout.Main - Starting leaf-sentinel AuthCallout service
+2026-08-11 11:50:09.034 [main] INFO  i.s.a.s.handler.MySqlAuthHandler - MySqlAuthHandler ready — url: jdbc:mysql://localhost:3306/b2_test_db
+2026-08-11 11:50:09.059 [main] INFO  i.s.a.s.h.DecentralizedNKeyKvAuthHandler - DecentralizedNKeyKvAuthHandler ready — bucket: auth-nkeys
+2026-08-11 11:50:09.063 [main] INFO  i.s.a.s.LeafSentinelAuthCalloutService - LeafSentinelAuthCalloutService initialised — account: AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S, issuerAccount: AAHN6BYPGW3YAUDN25LOQJDGXKBM6PBW54ERO54FHX62KEFTKY4Y7DJ5, xkey: disabled, signingKey: AA2MWFD4S2OZF4V3AUU3VQMJGBG6VY36UIHRQUNW27LYQ6YHNO5SBDWP
+2026-08-11 11:50:09.067 [main] INFO  i.s.a.s.LeafSentinelAuthCalloutService - LeafSentinelAuthCalloutService started — listening on $SYS.REQ.USER.AUTH
+2026-08-11 11:50:09.069 [main] INFO  io.synadia.authcallout.Main - Leaf-sentinel AuthCallout service running. Press Ctrl+C to stop.
+2026-08-11 11:50:17.072 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Auth callout request — kind: Client, serverId: NARD3YCZHP3JPVE6M57BCIFZ3SGMAZ4OTCAFO74P2VXQWAFN6WH6SSGR, userNkey: UAQQMQEAYORIBNZUW5X5NGD47UN2EIHC4EKMUMH7QURDU2D3PEOCVS5O
+2026-08-11 11:50:17.085 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Nonce signature verified — kind: Client, nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF
+2026-08-11 11:50:17.095 [nats:4] DEBUG i.s.a.s.h.DecentralizedNKeyKvAuthHandler - NKey authorized — nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF, label: leaf-node
+2026-08-11 11:50:17.096 [nats:4] INFO  i.s.a.s.LeafSentinelAuthCalloutService - Auth SUCCESS — kind: Client, identity: 'UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF', account: 'AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S'
+2026-08-11 11:50:17.102 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Auth response sent — success: true
+2026-08-11 11:50:49.388 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Auth callout request — kind: Leafnode, serverId: NARD3YCZHP3JPVE6M57BCIFZ3SGMAZ4OTCAFO74P2VXQWAFN6WH6SSGR, userNkey: UDMNA3GMUDMWNQ2TGZLSEQLIDTJBESP5WGTTXEUK7EZSR6WIDZ36XKJC
+2026-08-11 11:50:49.390 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Nonce signature verified — kind: Leafnode, nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF
+2026-08-11 11:50:49.393 [nats:4] DEBUG i.s.a.s.h.DecentralizedNKeyKvAuthHandler - NKey authorized — nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF, label: leaf-node
+2026-08-11 11:50:49.393 [nats:4] INFO  i.s.a.s.LeafSentinelAuthCalloutService - Auth SUCCESS — kind: Leafnode, identity: 'UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF', account: 'AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S'
+2026-08-11 11:50:49.396 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Auth response sent — success: true
+2026-08-11 11:52:06.824 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Auth callout request — kind: Leafnode, serverId: NARD3YCZHP3JPVE6M57BCIFZ3SGMAZ4OTCAFO74P2VXQWAFN6WH6SSGR, userNkey: UCA7UOE6EZGRTL55AVQDZ42PEYT6H3NRFR5SFP7MM2FOU4PVYIXWU74F
+2026-08-11 11:52:06.833 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Nonce signature verified — kind: Leafnode, nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF
+2026-08-11 11:52:06.836 [nats:4] DEBUG i.s.a.s.h.DecentralizedNKeyKvAuthHandler - NKey authorized — nkey: UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF, label: leaf-node
+2026-08-11 11:52:06.836 [nats:4] INFO  i.s.a.s.LeafSentinelAuthCalloutService - Auth SUCCESS — kind: Leafnode, identity: 'UBGUVJY43PHN4TRLB7TJWEKYOQ2F5FITC7C7IF6NR3INRPRST5IVPCFF', account: 'AB3LHREBLCDOW4HRQ6LNU7T3LROFRJYLPHQ2WTZAPYAKDDJIKIYVBK2S'
+2026-08-11 11:52:06.838 [nats:4] DEBUG i.s.a.s.LeafSentinelAuthCalloutService - Auth response sent — success: true
+2026-08-11 11:53:15.060 [Thread-1] INFO  io.synadia.authcallout.Main - Shutdown signal received
+2026-08-11 11:53:25.085 [Thread-1] INFO  i.s.a.s.LeafSentinelAuthCalloutService - LeafSentinelAuthCalloutService stopped
