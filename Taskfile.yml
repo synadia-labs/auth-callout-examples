@@ -1,6 +1,0 @@
-version: '3'
-
-includes:
-  server:
-    taskfile: ./server/Taskfile.yml
-    dir: ./server
