@@ -9,8 +9,7 @@ This project contains a series of examples of how to use AuthCallout in differen
 In order to understand the setup, and the examples one needs to use the docs/AuthCalloutJava.docx document as a guideline.
 It walks one end-to-end through the process, the configuration aspects, and how to execute the demo code. It also contains additional aspect on how to configure OAuth using Auth0 as an OAuth (https://auth0.com/) platform. One can of course chose their own platform for OAuth (e.g. Okta or PingFederate) as long as one maintains the same credentials, if one is to use the demo as is. One can of course rewrite the code to accommodate any other platform of choice. 
 
-The examples provided here are designed to help one understand the various ways which one can use AuthCallout with NATS. There are other variations to these example that are not covered here, but the current set constitutes a good foundation for anyone that wants to build AuthBased solutions with NATS.
-
+The examples provided here are designed to help one understand the various ways in which one can use AuthCallout with NATS. There are other variations to these example that are not covered here, but the current set constitutes a good foundation for anyone that wants to build AuthCallout based solutions with NATS.
 
 
 
