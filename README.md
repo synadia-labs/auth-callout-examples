@@ -24,10 +24,10 @@ This project contains a series of examples of how to use AuthCallout in differen
 |---|---|---|
 | Static config + KV Store authentication | Basic Config driven AuthCallout using KV Store as a credentials repo | |
 | Static Config + DB Authentication |Basic Config driven AuthCallout using DB (MySQL) as a credentials repo | | 
-| Static config + OAuth Authentication| Basic Config driven AuthCallout using OAuth for authentication and authorization   | |
-| Decentralized Auth + custom sentinel| Operator driven authentication using a custom sentinel and using a DB as credentials repo | |
-| Decentralized Auth + default sentinel| Operator driven authentication using a default sentinel (user/pass) and using a DB as credentials repo | |
-| Decentralized Auth + default sentinel + nkey| Operator driven authentication using a default sentinel (NKey as a token) using a DB as credentials repo||
+| Static config + OAuth Authentication | Basic Config driven AuthCallout using OAuth for authentication and authorization  | |
+| Decentralized Auth + custom sentinel | Operator driven authentication using a custom sentinel and using a DB as credentials repo | |
+| Decentralized Auth + default sentinel | Operator driven authentication using a default sentinel (user/pass) and using a DB as credentials repo | |
+| Decentralized Auth + default sentinel + nkey | Operator driven authentication using a default sentinel (NKey as a token) using a DB as credentials repo | |
 
 ## Repo Layout
 
