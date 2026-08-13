@@ -32,25 +32,8 @@ This project contains a series of examples of how to use AuthCallout in differen
 ## Repo Layout
 
 ```
-cmd/
-  async-stream-flushing/
-    kubecon/                    # bench scripts, HTML visualizers, conf
-  delayed-message-scheduling/
-    cli-demos/                  # step-by-step CLI walkthrough + quick reference
-    go-demos/                   # Go demo
-  distributed-counter-crdt/
-    cli-demos/                  # CLI walkthrough + quick reference
-    crdt-convergence/           # Go demo: cross-domain CRDT convergence
-      conf/                     # east + west server configs (demo-specific)
-      Taskfile.yml              # start / stop / run / reset
-server/
-  Taskfile.yml                  # shared server lifecycle tasks (reference for per-demo Taskfiles)
-  conf/
-    shared.conf                 # shared auth / accounts config
-    single/                     # single-node config
-    cluster/                    # 3-node cluster configs
-    super/                      # supercluster + leaf node configs
-  bin/                          # downloaded nats-server binary (gitignored)
-  data/                         # JetStream store dirs (gitignored)
-  logs/                         # server logs (gitignored)
+NATS/
+      contains the NATS configuration for the server and a few utility scripts. This is for mostly the config based model 
+NATS2/
+      contains the NATS configuration for the server and a few utility scrip but mostly for the Operator/decentralized model
 ```
