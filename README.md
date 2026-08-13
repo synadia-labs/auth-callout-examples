@@ -22,8 +22,9 @@ This project contains a series of examples of how to use AuthCallout in differen
 
 | Demo | Topic | Docs |
 |---|---|---|
-| [`async-stream-flushing`](cmd/async-stream-flushing/) | JetStream async stream flushing — KubeCon benchmarks (sync vs async, R1 vs R3) | [README](cmd/async-stream-flushing/kubecon/README.md) |
-| [`delayed-message-scheduling`](cmd/delayed-message-scheduling/) | JetStream Message Scheduler — deferred and recurring delivery | [README](cmd/delayed-message-scheduling/cli-demos/README.md) |
+| Static config + KV Store authentication | Basic Config driven AuthCallout using KV Store as a credentials repo | |
+| Static Config + DB Authentication |Basic Config driven AuthCallout using DB (MySQL) as a credentials repo | | 
+| Static config + OAuth Authentication| Basic Config driven AuthCallout using OAuth for authentication and authorization   | |
 | [`distributed-counter-crdt`](cmd/distributed-counter-crdt/) | JetStream distributed counter streams — CLI walkthrough and cross-domain CRDT convergence | [CLI](cmd/distributed-counter-crdt/cli-demos/README.md) · [Go](cmd/distributed-counter-crdt/crdt-convergence/README.md) |
 
 ## Repo Layout
