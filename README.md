@@ -48,7 +48,7 @@ NATS2/
 SQL/
         contains sql script to create a MySQL Table for authentication
 docs/
-      contains the Work document that walks through the theory, setup and execution of the demo scenarios. This is the reference manual for          the entire demo set. It also contains a brief guideline on how to use Claude Skills. 
+      contains the Work document that walks through the theory, setup and execution of the demo scenarios. This is the reference manual for the entire demo set. It also contains a brief guideline on how to use Claude Skills. 
 scr/
       contains all the Java source code and application comfiguration files
 target/ 
